@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="openal32.dll" />
+    <None Include="sfml-audio-2.dll" />
+    <None Include="sfml-audio-d-2.dll" />
+    <None Include="sfml-graphics-2.dll" />
+    <None Include="sfml-graphics-d-2.dll" />
+    <None Include="sfml-network-2.dll" />
+    <None Include="sfml-network-d-2.dll" />
+    <None Include="sfml-system-2.dll" />
+    <None Include="sfml-system-d-2.dll" />
+    <None Include="sfml-window-2.dll" />
+    <None Include="sfml-window-d-2.dll" />
+    <None Include="res\edit\.gitkeep" />
+    <None Include="res\edit\Resume Button.xcf" />
+    <None Include="res\res\.gitkeep" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\hpp\States\GameOverState.hpp" />
+    <ClInclude Include="src\hpp\States\GameState2P.hpp" />
+    <ClInclude Include="src\hpp\States\MainMenuState.hpp" />
+    <ClInclude Include="src\hpp\States\PauseState.hpp" />
+    <ClInclude Include="src\hpp\States\SplashState.hpp" />
+    <ClInclude Include="src\hpp\AssetManager.hpp" />
+    <ClInclude Include="src\hpp\DEFINITIONS.hpp" />
+    <ClInclude Include="src\hpp\Game.hpp" />
+    <ClInclude Include="src\hpp\InputManager.hpp" />
+    <ClInclude Include="src\hpp\SoundManager.hpp" />
+    <ClInclude Include="src\hpp\State.hpp" />
+    <ClInclude Include="src\hpp\StateMachine.hpp" />
+    <ClInclude Include="src\hpp\MusicManager.hpp" />
+    <ClInclude Include="src\hpp\States\SettingsState.hpp" />
+    <ClInclude Include="src\hpp\Components.hpp" />
+    <ClInclude Include="src\hpp\States\GameState1P.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\cpp\StateMachine.cpp" />
+    <ClCompile Include="src\cpp\States\GameOverState.cpp" />
+    <ClCompile Include="src\cpp\States\GameState2P.cpp" />
+    <ClCompile Include="src\cpp\States\MainMenuState.cpp" />
+    <ClCompile Include="src\cpp\States\PauseState.cpp" />
+    <ClCompile Include="src\cpp\States\SplashState.cpp" />
+    <ClCompile Include="src\cpp\AssetManager.cpp" />
+    <ClCompile Include="src\cpp\Game.cpp" />
+    <ClCompile Include="src\cpp\InputManager.cpp" />
+    <ClCompile Include="src\cpp\Main.cpp" />
+    <ClCompile Include="src\cpp\SoundManager.cpp" />
+    <ClCompile Include="src\cpp\MusicManager.cpp" />
+    <ClCompile Include="src\cpp\States\SettingsState.cpp" />
+    <ClCompile Include="src\cpp\Components.cpp" />
+    <ClCompile Include="src\cpp\States\GameState1P.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="res\edit\_pr.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\edit\1P Play Button.png" />
+    <Image Include="res\edit\2P Play Button.png" />
+    <Image Include="res\edit\Achievements.png" />
+    <Image Include="res\edit\Game Over Draw.png" />
+    <Image Include="res\edit\Game Over O Won.png" />
+    <Image Include="res\edit\Game Over X Won.png" />
+    <Image Include="res\edit\Game Title.png" />
+    <Image Include="res\edit\Grid.png" />
+    <Image Include="res\edit\Home Button.png" />
+    <Image Include="res\edit\Main Menu Background.png" />
+    <Image Include="res\edit\O Win.png" />
+    <Image Include="res\edit\O.png" />
+    <Image Include="res\edit\Pause Background.png" />
+    <Image Include="res\edit\Pause Button.png" />
+    <Image Include="res\edit\Pause Window.png" />
+    <Image Include="res\edit\Resume Button.png" />
+    <Image Include="res\edit\Retry Button.png" />
+    <Image Include="res\edit\Sound Off.png" />
+    <Image Include="res\edit\Sound On.png" />
+    <Image Include="res\edit\Splash Background.png" />
+    <Image Include="res\edit\X Win.png" />
+    <Image Include="res\edit\X.png" />
+    <Image Include="res\res\Achievements.png" />
+    <Image Include="res\res\Game Title.png" />
+    <Image Include="res\res\Grid.png" />
+    <Image Include="res\res\Home Button.png" />
+    <Image Include="res\res\Main Menu Background.png" />
+    <Image Include="res\res\O Win.png" />
+    <Image Include="res\res\O.png" />
+    <Image Include="res\res\Pause Background.png" />
+    <Image Include="res\res\Pause Button.png" />
+    <Image Include="res\res\Pause Window.png" />
+    <Image Include="res\res\Play Button Outer.png" />
+    <Image Include="res\res\Play Button.png" />
+    <Image Include="res\res\Resume Button.png" />
+    <Image Include="res\res\Retry Button.png" />
+    <Image Include="res\res\Sound Off.png" />
+    <Image Include="res\res\Sound On.png" />
+    <Image Include="res\res\Splash Background.png" />
+    <Image Include="res\res\X Win.png" />
+    <Image Include="res\res\X.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="res\fonts\arial.ttf" />
+    <Font Include="res\fonts\Marker Felt.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="res\snd\SampleSound.wav" />
+  </ItemGroup>
+</Project>
